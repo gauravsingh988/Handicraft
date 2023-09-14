@@ -1,0 +1,44 @@
+.mainsectionfooter {
+    padding: 50px 0 0 0;
+    background-color: var(--blue);
+}
+
+.mainsectionfooter .aboutlink {
+    padding-left: 30px;
+}
+
+.mainsectionfooter .aboutlink ul {
+    list-style: none;
+}
+
+.mainsectionfooter .aboutlink ul li {
+    padding-bottom: 8px;
+
+}
+
+.mainsectionfooter .aboutlink ul li a {
+    color: var(--black);
+      font-size: 16px;
+}
+
+.mainsectionfooter .aboutlink ul li a:hover {
+    color: var(--black);
+}
+
+.mainsectionfooter .aboutlink ul li a i {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.copyrightsection {
+    border-top: 1px solid var(--black);
+}
+
+.copyrightsection p {
+    margin: 0;
+    padding: 12px 0;
+}

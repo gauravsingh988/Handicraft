@@ -1,0 +1,137 @@
+.mainseccate {
+    margin: 30px 15px;
+}
+
+.mainseccate .cartofilterleft {
+    background: var(--white);
+    box-shadow: var(--boxshadow);
+    border-radius: 0 0 10px 10px;
+    border-top: 1px solid var(--lightborder);
+    padding: 0 10px 10px 10px;
+    height: 70vh;
+    overflow: auto;
+}
+
+.mainseccate .cartofilterleft::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+}
+
+.mainseccate .cartofilterleft::-webkit-scrollbar-thumb {
+    background-color: var(--graycolor);
+    border-radius: 6px;
+    width: 6px;
+}
+
+.mainseccate .filter-title {
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--white);
+    box-shadow: var(--boxshadow);
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.mainseccate .cartofilterleft .filtercolase {
+    padding-top: 10px;
+}
+
+.mainseccate .cartofilterleft .filtercolase .filtercoheadin {
+    padding-bottom: 3px;
+}
+
+.mainseccate .cartofilterleft .filtercolase .filerlistshow .fogrop {
+    padding-bottom: 4px;
+}
+
+.filerlistshow .mainsecprice .leftsecprifilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.filerlistshow .mainsecprice .leftsecprifilter .prifilselct {
+    border: 1px solid var(--lightborder);
+    background: #fff;
+    width: 49%;
+    padding: 2px;
+    border-radius: 3px;
+}
+.catesortmainsec .caterightmaincard{
+   background: var(--white);
+    box-shadow: var(--boxshadow);
+    border-radius: 10px;
+    border: 1px solid var(--lightborder);
+}
+.catesortmainsec .caterightmaincard .righcardimgsec{
+    height: 200px;
+    width: 100%;
+}
+.catesortmainsec .caterightmaincard .righcardimgsec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.catesortmainsec .caterightmaincard  .rightcardcontent{
+    padding: 10px;
+}
+.catesortmainsec .caterightmaincard  .rightcardcontent a{
+      font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 6px;
+    line-height: 19px;
+    color: var(--black);
+}
+.catesortmainsec .caterightmaincard  .rightcardcontent .rightpricse{
+    font-size: 20px;
+    color: var(--graycolor);}
+
+.catesortmainsec .caterightmaincard  .rightcardcontent .rightpricse del,
+.catesortmainsec .caterightmaincard  .rightcardcontent .rightpricse .rightoffce{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.catesortmainsec .caterightmaincard  .rightcardcontent .rightpricse .rightoffce{
+    color: green;
+}
+.catesortmainsec{
+    background: var(--white);
+    box-shadow: var(--boxshadow);
+    border-radius:10px;
+    padding: 10px;
+}
+ .catesortmainsec .rightfilter .righfinslect {
+    border: 1px solid var(--lightborder);
+    background: #fff;
+    width: 49%;
+    padding: 2px;
+    border-radius: 3px;
+
+}
+.seacfilte .form-contorl{
+    border: 1px solid var(--lightborder);
+    background: #fff;
+    width: 100%;
+    padding: 2px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+      font-size: 16px;
+}
+.mainseccarbox{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.b_stick_box {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    z-index: 999999;
+}

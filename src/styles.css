@@ -1,0 +1,171 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'headingfont';
+    src: url(./assets/font/visby/VisbyBold.woff);
+}
+
+@font-face {
+    font-family: 'pragraphfont';
+    src: url(./assets/font/visby/VisbyMedium.woff);
+}
+@font-face {
+    font-family: 'headingfive';
+    src: url(./assets/font/visby/VisbyMedium.woff);
+}
+ul li,
+input,label,
+a {
+    font-family: 'pragraphfont';
+}
+
+:root {
+    --blue: #feee00;
+    --lightblue: #f7ef8a;
+    --black: #0F1111;
+    --white: #fff;
+    --boxshadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    --graycolor: rgb(128, 128, 128);
+    --bodybg: #f1f3f6;
+    --lightborder: #E2EBEB;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+    font-family: 'headingfont';
+}
+h5,
+h6 {
+    font-family: 'headingfive';
+}
+body {
+    overflow-x: hidden !important;
+    font-size: 15px;
+    line-height: 24px;
+    color: #10161b;
+    background-color: var(--bodybg);
+    font-family: 'pragraphfont';
+}
+
+.navbar-toggler {
+    color: #fff;
+    background-color: #0b595b;
+    border: 1px solid #0b595b;
+    padding: 5px 10px;
+    font-size: 26px;
+}
+
+/* ==Scrollbar== */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-moz-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #bfbfbf;
+}
+
+::-moz-scrollbar-track {
+    background-color: #bfbfbf;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--graycolor);
+    border-radius: 10px;
+}
+
+::-moz-scrollbar-thumb {
+    background: #0B595A;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #141b22;
+}
+
+::-moz-scrollbar-thumb:hover {
+    background: #141b22;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+input,
+input:focus,
+input:hover,
+button,
+button:hover,
+button:focus {
+    outline: none;
+}
+
+section {
+    overflow: hidden;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    font-family: 'pragraphfont';
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+button:focus,
+.btn-secondary.focus,
+.btn-secondary:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+input:focus-visible {
+    box-shadow: none;
+    outline: none;
+}
+
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.seaction-padd {
+    padding: 70px 0;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}

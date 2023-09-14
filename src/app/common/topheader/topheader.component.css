@@ -1,0 +1,132 @@
+.naibsectphead .mainsectopheader {
+    background-color: var(--blue);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 50px;
+}
+
+.naibsectphead .mainsectopheader .tplogosec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.naibsectphead .mainsectopheader .tplogosec .seletyouloca a {
+    display: flex;
+    color: var(--black);
+    align-items: center;
+}
+
+.naibsectphead .mainsectopheader .tplogosec .seletyouloca i {
+    padding-right: 5px;
+}
+
+.naibsectphead .mainsectopheader .tplogosec img {
+    height: 50px;
+}
+
+.naibsectphead .mainsectopheader .topseacrh .form-group {
+    margin: 0;
+}
+
+.naibsectphead .mainsectopheader .topseacrh .form-control {
+    height: 40px;
+    border: none;
+    border-radius: 0px;
+}
+
+.naibsectphead .mainsectopheader .toploginbutin {
+    display: flex;
+}
+
+.naibsectphead .mainsectopheader .toploginbutin .loginbtn {
+    height: 40px;
+    border: none;
+    border-radius: 0px;
+    background-color: var(--black);
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+.naibsectphead .mainsectopheader .toploginbutin .cartbtnsece {
+    color: var(--black);
+    background: transparent;
+    border-radius: 0;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.naibsectphead .mainsectopheader .toploginbutin .cartbtnsece i {
+    padding-right: 5px;
+}
+
+.naibsectphead .bottomheader .navbar.bg-light {
+    background-color: var(--white) !important;
+    box-shadow: var(--boxshadow);
+    padding: 0;
+}
+
+
+.naibsectphead .bottomheader .navbar-brand {
+    border-right: 2px solid var(--blue);
+    padding-right: 20px;
+    color: var(--blue);
+    padding-left: 20px;
+    background-color: var(--black);
+    margin: 0;
+    height: 40px;
+}
+
+.naibsectphead .bottomheader .navbar-nav .nav-item .nav-link {
+    padding: 8px 20px;
+    transition: all 0.5;
+}
+
+.naibsectphead .bottomheader .navbar-nav .nav-item .nav-link:hover,
+.naibsectphead .bottomheader .navbar-nav .nav-item .nav-link:active {
+    background: var(--blue);
+    color: var(--black);
+}
+
+.toploginbutin .btn-secondary {
+    margin-left: 30px;
+    background: transparent;
+    border: none;
+    line-height: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    color: var(--black);
+    align-items: center;
+}
+
+.toploginbutin .btn-secondary i {
+    padding-right: 3px;
+}
+
+.toploginbutin .dropdown-menu {
+    padding: 0;
+    box-shadow: var(--boxshadow);
+    border: none;
+    background: var(--white);
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.toploginbutin .dropdown-menu .dropdown-item:nth-last-child(1) {
+    border: none;
+}
+
+.toploginbutin .dropdown-menu .dropdown-item {
+    padding: 8px 20px;
+    border-bottom: 1px solid var(--bodybg);
+    transition: all 0.5s;
+      font-size: 16px;
+}
+
+.toploginbutin .dropdown-menu .dropdown-item:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
